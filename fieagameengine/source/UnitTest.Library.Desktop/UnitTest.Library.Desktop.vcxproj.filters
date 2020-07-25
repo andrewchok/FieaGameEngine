@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTests.cpp">
+      <Filter>Container Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="HashmapTests.cpp">
+      <Filter>Container Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SListTests.cpp">
+      <Filter>Container Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTests.cpp">
+      <Filter>Container Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParseTest.cpp">
+      <Filter>Json Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTableParseHelperTests.cpp">
+      <Filter>Json Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultHashTests.cpp">
+      <Filter>Container Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTest.cpp">
+      <Filter>Container Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library.Shared\JsonTestParseHelper.cpp">
+      <Filter>Json Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionIncrement.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTests.cpp">
+      <Filter>Test Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnitityTests.cpp">
+      <Filter>Test Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp">
+      <Filter>Test Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTests.cpp">
+      <Filter>Test Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldTests.cpp">
+      <Filter>Test Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SectorTests.cpp">
+      <Filter>Test Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SubscriberFoo.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SubscriberFooUnsubSelf.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SubscriberFooSubNewFoo.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SubscriberFooEnque.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTests.cpp">
+      <Filter>Test Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionTests.cpp">
+      <Filter>Test Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Foo.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedFoo.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library.Shared\JsonTestParseHelper.h">
+      <Filter>Json Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionIncrement.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SubscriberFoo.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SubscriberFooUnsubSelf.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SubscriberFooSubNewFoo.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SubscriberFooEnque.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Helper Classes">
+      <UniqueIdentifier>{7067f78a-240f-4e10-aa0e-93243fe057a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{4a78b7dd-918e-447a-a718-177bea040f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Classes">
+      <UniqueIdentifier>{5abe03a3-58b1-4159-b80b-da792eb24cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container Tests">
+      <UniqueIdentifier>{b388124a-aaac-4e51-a6af-c80c34ef5b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json Tests">
+      <UniqueIdentifier>{9d89b7a4-9410-49e3-965a-ead203f94672}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\JsonParseTableTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\SectorTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\WorldTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\EntityTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\ActionTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\ReactionTest.json">
+      <Filter>Content</Filter>
+    </None>
+  </ItemGroup>
+</Project>

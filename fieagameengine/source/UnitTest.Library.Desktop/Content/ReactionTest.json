@@ -1,0 +1,84 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "TestWorld"
+  },
+  "Sectors": {
+    "type": "table",
+    "value": [
+      {
+        "class": "Sector",
+        "type": "table",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "TestSector1"
+          },
+          "Entities": {
+            "type": "table",
+            "value": [
+              {
+                "type": "table",
+                "class": "Entity",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "TestEntity1_1"
+                  },
+                  "Actions": {
+                    "type": "table",
+                    "value": [
+                      {
+                        "type": "table",
+                        "class": "ActionIncrement",
+                        "value": {
+                          "Target": {
+                            "type": "string",
+                            "value": "Number"
+                          },
+                          "Number": {
+                            "type": "integer",
+                            "value": 2019
+                          }
+                        }
+                      },
+                      {
+                        "type": "table",
+                        "class": "ReactionAttributed",
+                        "value": {
+                          "SubType": {
+                            "type": "string",
+                            "value": "integer"
+                          },
+                          "Actions": {
+                            "type": "table",
+                            "value": [
+                              {
+                                "type": "table",
+                                "class": "ActionIncrement",
+                                "value": {
+                                  "Target": {
+                                    "type": "string",
+                                    "value": "Number"
+                                  },
+                                  "Number": {
+                                    "type": "integer",
+                                    "value": 1999
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

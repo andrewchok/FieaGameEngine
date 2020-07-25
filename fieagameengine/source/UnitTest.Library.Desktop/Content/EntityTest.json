@@ -1,0 +1,10 @@
+{
+  "A": {
+    "type": "integer",
+    "value": 123
+  },
+  "Name": {
+    "type": "string",
+    "value": "Entity1"
+  }
+}

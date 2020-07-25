@@ -1,0 +1,39 @@
+{
+  "A": {
+    "type": "integer",
+    "value": 123
+  },
+  "Name": {
+    "type": "string",
+    "value": "Sector1"
+  },
+  "Entities": {
+    "type": "table",
+    "value": [
+      {
+        "type": "table",
+        "class": "Entity",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Entity1-1"
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "Entity",
+        "value": {
+          "A": {
+            "type": "integer",
+            "value": 123
+          },
+          "Name": {
+            "type": "string",
+            "value": "Entity1-2"
+          }
+        }
+      }
+    ]
+  }
+}

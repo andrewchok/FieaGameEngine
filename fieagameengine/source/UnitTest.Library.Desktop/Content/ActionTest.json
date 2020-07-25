@@ -1,0 +1,137 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "TestWorld"
+  },
+  "Sectors": {
+    "type": "table",
+    "value": [
+      {
+        "class": "Sector",
+        "type": "table",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "TestSector"
+          },
+          "Entities": {
+            "type": "table",
+            "value": [
+              {
+                "type": "table",
+                "class": "Entity",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "TestEntity"
+                  },
+                  "Actions": {
+                    "type": "table",
+                    "value": [
+                      {
+                        "type": "table",
+                        "class": "ActionIncrement",
+                        "value": {
+                          "Name": {
+                            "type": "string",
+                            "value": "TestActionIncrement"
+                          },
+                          "Number": {
+                            "type": "integer",
+                            "value": 2019
+                          },
+                          "Target": {
+                            "type": "string",
+                            "value": "Number"
+                          }
+                        }
+                      },
+                      {
+                        "type": "table",
+                        "class": "ActionCreateAction",
+                        "value": {
+                          "Name": {
+                            "type": "string",
+                            "value": "TestActionCreateAction"
+                          },
+                          "PrototypeName": {
+                            "type": "string",
+                            "value": "ActionIncrement"
+                          },
+                          "InstanceName": {
+                            "type": "string",
+                            "value": "TestActionIncrement2"
+                          }
+                        }
+                      },
+                      {
+                        "type": "table",
+                        "class": "ActionDestroyAction",
+                        "value": {
+                          "Name": {
+                            "type": "string",
+                            "value": "TestActionDestroyAction"
+                          },
+                          "ActionInstanceName": {
+                            "type": "string",
+                            "value": "TestActionCreateAction"
+                          }
+                        }
+                      },
+                      {
+                        "type": "table",
+                        "class": "ActionIf",
+                        "value": {
+                          "Name": {
+                            "type": "string",
+                            "value": "TestActionIf"
+                          },
+                          "Number": {
+                            "type": "integer",
+                            "value": 20
+                          },
+                          "Conditon": {
+                            "type": "integer",
+                            "value": 0
+                          },
+                          "ThenAction": {
+                            "type": "table",
+                            "class": "ActionDestroyAction",
+                            "value": {
+                              "Name": {
+                                "type": "string",
+                                "value": "TestActionDestroyAction2"
+                              },
+                              "ActionInstanceName": {
+                                "type": "string",
+                                "value": "TestActionIf"
+                              }
+                            }
+                          },
+                          "ElseAction": {
+                            "type": "table",
+                            "class": "ActionIncrement",
+                            "value": {
+                              "Name": {
+                                "type": "string",
+                                "value": "TestActionIncrement3"
+                              },
+                              "Target": {
+                                "type": "string",
+                                "value": "Number"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
